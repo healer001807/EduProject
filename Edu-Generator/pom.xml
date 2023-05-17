@@ -8,7 +8,6 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../Edu-Parent</relativePath>
     </parent>
-    <groupId>com.edu</groupId>
     <artifactId>Edu-Generator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Edu-Generator</name>

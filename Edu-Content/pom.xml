@@ -8,11 +8,11 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../Edu-Parent</relativePath>
     </parent>
-    <groupId>com.edu</groupId>
     <artifactId>Edu-Content</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Edu-Content</name>
     <description>Edu-Content</description>
+    <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -24,14 +24,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
