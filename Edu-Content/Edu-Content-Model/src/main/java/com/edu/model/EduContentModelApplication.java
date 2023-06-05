@@ -1,13 +1,13 @@
-package com.edu.edubase;
+package com.edu.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EduBaseApplication {
+public class EduContentModelApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EduBaseApplication.class, args);
+        SpringApplication.run(EduContentModelApplication.class, args);
     }
 
 }
